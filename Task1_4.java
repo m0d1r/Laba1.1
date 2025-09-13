@@ -4,9 +4,7 @@ public class Task1_4 {
         double n = 2;
         do {
             double a = 1/(n*n+n-2);
-            // System.out.println(a);
             sum += a;
-            // System.out.println(sum);
             n++;
             if (a < (0.000001)) {
                 break;
