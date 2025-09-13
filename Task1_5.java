@@ -7,7 +7,7 @@ public class Task1_5 {
         String str = scanner.nextLine();
         String reStr = "";
         for (int i = str.length() - 1; 0 <= i; i--){
-            reStr += String.valueOf(str.charAt(i));
+            reStr += str.charAt(i);
         }
         if (str.equals(reStr)) {
             System.out.println("Палиндром");
